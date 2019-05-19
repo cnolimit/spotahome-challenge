@@ -20,6 +20,10 @@ const getIds  = (arr) => arr.map((obj) => obj.id)
  */
 const createIdQueryString  = (arr) => arr.map((id, index) => index !== 0 ? `&ids[]=${id}` : `ids[]=${id}`).join('')
 
+/**
+ * @description Will return a formatted array of object in our required format
+ * @param {Array} arr 
+ */
 const formatResponseData = (arr) => arr.map(({ adId, currencySymbol, pricePerMonth, photoUrls, title }) => {
   return {
     adId, 
