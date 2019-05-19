@@ -1,68 +1,43 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Spotahome Frontend Challenge
 
-## Available Scripts
+### Brief Description
 
-In the project directory, you can run:
+This project utilises the API created in the first task in order to carry out the follow functions
 
-### `npm start`
+- Display list of available homes
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+This project design is has tried to stay as close to the wireframes as possible.
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+### Time to Complete
+In total ~4 hours
 
-### `npm test`
+### Modules
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+| Module           | Why?                                                                                                                                                                        |
+| :---------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| axios             | axios is really simple to use and allows you to manage create instances to better namespace and managed requests                                                            |
+| styled-components | styled-components helps simplify styling components and managing class names. It also uses a similar syntax to SCSS allowing for nesting styles, which is really convenient |
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Hardest Area
+I had difficulties trying to setup the layout and manageing the image size.
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+### Proudest Area
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+I enjoyed creating the endpoint as well as breaking down the layout and attempting to make it as clean as possible.
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Getting Started
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+You will need to run the API and the frontend seperately.
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+To run the API `cd` into the project and run the command
+```
+  node server
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+To run the frontend `cd` into the project and run the command
+```
+  yarn start
+```
