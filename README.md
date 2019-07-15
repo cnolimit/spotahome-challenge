@@ -8,7 +8,7 @@ This project utilises the API created in the first task in order to carry out th
 
 This project design is has tried to stay as close to the wireframes as possible.
 
-### Time to Complete
+### Time to Complete
 In total ~4 hours
 
 ### Modules
@@ -19,7 +19,7 @@ In total ~4 hours
 | styled-components | styled-components helps simplify styling components and managing class names. It also uses a similar syntax to SCSS allowing for nesting styles, which is really convenient |
 
 
-### Hardest Area
+### Hardest Area
 I had difficulties trying to setup the layout and manageing the image size.
 
 ### Proudest Area
